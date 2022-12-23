@@ -45,6 +45,7 @@
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintTop_toBottomOf="@id/tvMovieName"/>
         <TextView
+            android:id="@+id/tvRate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rate"
@@ -64,6 +65,7 @@
             app:layout_constraintTop_toBottomOf="@id/imgRate"/>
 
         <TextView
+            android:id="@+id/tvLang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
@@ -84,6 +86,7 @@
             app:layout_constraintStart_toStartOf="@id/guideline"/>
 
         <TextView
+            android:id="@+id/tvMovieDateReleased"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date"

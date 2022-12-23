@@ -16,6 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
+            android:id="@+id/imgBackground"
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:alpha="0.1"
